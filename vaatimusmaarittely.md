@@ -90,7 +90,9 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 ![Sidokuva](images/sidoskartta.png)
 
-[Edit](https://github.com%2Fgarismaatti%2FTTOS0100-Ohjelmistosuunnittelu-ja-testaus%2Fimages%2Fimages%2Fsidoskartta.png%3Ft%3D0) to edit this image in a browser 
+[Edit](https://www.draw.io/?title=sidoskartta.png&url=https://github.com/garismaatti/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/raw/master/images/sidoskartta.png?t=0) to edit this image in a browser 
+
+[Edit](https://www.draw.io/?title=sidoskartta.png&url=https%3A%2F%2Fgithub.com%2Fgarismaatti%2FTTOS0100-Ohjelmistosuunnittelu-ja-testaus%2Fraw%2Fmaster%2Fimages%2Fsidoskartta.png%3Ft%3D0?t=0) to edit this image in a browser 
 
 ## Asiakaspolku (Customer Journey)
 
