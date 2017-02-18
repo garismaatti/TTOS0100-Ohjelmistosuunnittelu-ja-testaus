@@ -90,6 +90,8 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 ![Sidokuva](images/sidoskartta.png)
 
+[Edit](https://github.com%2Fgarismaatti%2FTTOS0100-Ohjelmistosuunnittelu-ja-testaus%2Fimages%2Fimages%2Fsidoskartta.png%3Ft%3D0) to edit this image in a browser 
+
 ## Asiakaspolku (Customer Journey)
 
 Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
