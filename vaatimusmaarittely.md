@@ -90,7 +90,6 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 ![Sidokuva](images/sidoskartta.png)
 
-
 ## Asiakaspolku (Customer Journey)
 
 Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
