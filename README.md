@@ -3,6 +3,6 @@
 by Salopää
 
 <br/>
-[Vaatimusmäärittely](vaatimusmaarittelu.md)
+[Vaatimusmäärittely](vaatimusmaarittely.md)
 
 
