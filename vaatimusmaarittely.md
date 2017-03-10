@@ -99,7 +99,7 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
 
-![](https://raw.githubusercontent.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/master/images/Ostotapahtuma%20-%20Jarmon%20tarina.jpeg)
+![Asiakaspolku-kuva](images/asiakaspolku.png)
 
 
 
