@@ -72,8 +72,8 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 | Sidosryhmä/asiakasprofiili | Tehtävä | Muuta |
 |:-: | :-: | :-: |
-| [Asiakasprofiili-1](asiakasprofiili-1.md | Jarmo Mainio, 27, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta  | (Matematiikan opettaja) |
-| [Asiakasprofiili-2](asiakasprofiili-2.md | Rigu Rich, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land | Ulkomaalainen |
+| [Asiakasprofiili-1](asiakasprofiili-1.md) | Jarmo Mainio, 27, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta  | (Matematiikan opettaja) |
+| [Asiakasprofiili-2](asiakasprofiili-2.md) | Rigu Rich, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land | Ulkomaalainen |
 | [Asiakasprofiili-3](asiakasprofiili-3.md) | Siiri Koikkalainen 99, suurmummo, Hankasalmi,  | (Sokea) | 
 | [Asiakasprofiili-4](asiakasprofiili-4.md | John Rambu, 55, tuntematon, Helsinki, (Bad Man) | Hankala asiakas | 
 | [Asiakasprofiili-5](asiakasprofiili-5.md) | Sad Frog 26 |  | Kiusantekijä | |
