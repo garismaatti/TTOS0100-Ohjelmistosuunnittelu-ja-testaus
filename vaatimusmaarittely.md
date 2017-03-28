@@ -36,254 +36,282 @@ Mikä on tämän vaatimusmäärittelydokumentin tehtävä?
 * Tärkeätä tietää/oleellista lukijalle ?
 Tämä dokumentti määrittelee oleelliset asiat
 
-### Palvelukuvaus/asiakastarina
+Tämä on vaatimusmäärittely uudelle web palvelulle. Tämän palvelun ydin alue on tarjota käyttäjille työkaluja helpottamaan varsinkin vieraskielisen tekstin lukemista kuvista.
 
-Pyri vastaamaan seuraaviin kysymyksiin!
 
-* Mitä määritetyltä palvelulta odotetaan?
-* Miten käytön oletetaan tapahtuvan
-* Mitä saadaan hyötyä
 
-### Tilaaja
+### Palvelukuvaus
 
-Vastaa seuraaviin kysymyksiin!
+Palvelun ydin alue on tarjota käyttäjille työkaluja helpottamaan varsinkin vieraskielisen tekstin lukemista kuvista. Palvelu tulee auttamaan muuntamaan suuria määriä kuvallista-tekstiä sähköiseen muokattavaan muotoon, sekä tarjoamaan erilaisia työkaluja sen kääntämiseen eri kielille.
+Palvelulla pyritään helpottamaan erilaisten ihmisten tarpeita saada selvää mitä kuvissa lukee. Palvelu on suunnattu ammattikseen kääntäville henkilöille, tutkijoille, harrastelijoille ja opiskelijoille joilla on tarvetta esimerkiksi kääntää vanha saksankielinen ohjekirja suomeksi.
 
-* Kuka tilaa määrittelytyön, yhteistiedot ?
+Palveluun idea on myös tarjota asiakkaalleen niin sanottu "overlay"-tila jossa käännetty teksti näytetään suoraan vanhan päällä. Tämä yhdistettynä mahd. jakaa katselu/muokkaus oikeuksia muille käyttäjille antaa mahd. näyttää käännöstyötä asiakkaalle nopeasti ja menettämättä tekstiin liittyviä kuvia.
 
-### Toimittaja
 
-* Kuka tekee määrittelytyön, yhteistiedot ?
+
+
+
+### Vaatimusmäärittelytyön tilaaja
+
+Vaatimusmäärittelytyön tilaajana toimii palvelun tekijä Salopää Ari.
+
+
+
+
+### Vaatimusmäärittelyn toimittaja
+
+Vaatimusmäärittelytyön toimittaa Ari Salopää.
+
 
 
 ## Asiakastarina
 
-* Kirjoita tähän lyhyt kuvaus miten tuotteen/palvelun tulee toimia.
-* [Esimerkki 1]()
-* [Esimerkki 2]()
-* [Esimerkki 3]()
-* [Esimerkki 4]()
+[Paul Yeager](asiakasprofiili-2.md) tarvitsee työkalun auttamaan häntä kääntämään 93 sivuisen ranskan kielisen paperisen huolto-oppaan englanniksi yrityksen työntekijöille jaettavaksi.
+Paul aloittaa työnsä skannaamalla huolto-oppaan digitaaliseen muotoon ja syöttää kuvat palveluun. palvelussa Paul pystyy valitsemaan sivuilta teksti osion ja antaa koneen tehdä näille automaattisen käännöksen. koneen vielä miettiessä automaattisia käänöksiä Paul pystyy aloittaamaan tarkistamaan ja korjaamaan ensimmäisen sivun automaattisia käännöksiä. Vaikeammissa sanoissa Paul pystyy käyttämään apunaan sivun reunassa olevaa kääntäjää etsiäkseen nopeasti hyvän ja tarkan käännöksen.
+Koska kone tekee suuren osan työstä, nopeutuu käännöksen syntyminen huomattavasti ja Paul saa päivässä aikaan huomattavasti enemmän aikaan kuin ilman palvelua. Iltapäivällä Paul pystyykin jo jakamaan oikeudet työkaverilleen, joka pystyy tarkastelemaan alku sivujen tuotosta samalla kun Paul tekee loppupään viimeistelyjä.
+
+Seuraavana päivänä Paul saa työnsä valmiiksi ja lataa käännetyn tekstin tekstitiedostona ulos palvelusta.
 
 
-## Sidosryhmät ja profiilikuvaukset
 
-Kirjataan näkyviin kaikki sidosryhmät, jotka on tunnistettu liityvän palveluun. Vastaa kysymykseen kuka/mikä on kiinnostunut tuotteesta tai kenellä on sanansa sanottavana liittyen tuotteen kehittämiseen ? Ota selvää mitä sidosryhmiä liittyy tehtäväantoon?
+## Sidosryhmät (Stakeholders) ja profiilikuvaukset (Profile descriptions)
 
-Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
-
-* [Esimerkki persoonat eri profiileille](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/esimerkki-asiakasprofiilit.md)
-
-| Sidosryhmä/asiakasprofiili | Tehtävä | Muuta |
-|:-: | :-: | :-: |
-| [Asiakasprofiili-1](asiakasprofiili-1.md) | Jarmo Mainio, 27, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta  | (Matematiikan opettaja) |
-| [Asiakasprofiili-2](asiakasprofiili-2.md) | Rigu Rich, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land | Ulkomaalainen |
-| [Asiakasprofiili-3](asiakasprofiili-3.md) | Siiri Koikkalainen 99, suurmummo, Hankasalmi,  | (Sokea) |
-| [Asiakasprofiili-4](asiakasprofiili-4.md) | John Rambu, 55, tuntematon, Helsinki, (Bad Man) | Hankala asiakas |
-| [Asiakasprofiili-5](asiakasprofiili-5.md) | Sad Frog 26 |  | Kiusantekijä | |
-| [Asiakasprofiili-6](asiakasprofiili-6.md) | Sad Frog 26 |  | Kiusantekijä | |
-|[Sidosryhmä-1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-asiakasprofiili.md) |  Mungo consulting Oy | Palvelun tarjoaja |
-| [Sidosryhmä-2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-asiakasprofiili.md) | RahoittajaA |  |Yrityksen osakas, Mauri Bosse, omistaa 5 % | |
-| [Sidosryhmä-3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-asiakasprofiili.md) | TuotantotiimiA | yrityksen työntekijät, Kalle, Kille, Pelle ja Pöppö | |
-| SuurAsiakasA |  | NordMan Oy, yritysasiakas | |
-| Bad Man |  |Kiusantekijä | |
-| Snake Consulting Oy | | kilpailija | |
-
-
+Palvelun sidosryhmät ovat Palvelun käyttäjät, Palvelun ylläpitäjät, Crakkerit ja Omistaja.
 
 ## Sidosryhmäkuva (Stakeholder map)
 
-![Sidokuva](images/sidoskartta.png)
-
-[Edit](https://www.draw.io/?title=sidoskartta.png&url=https://github.com/garismaatti/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/raw/master/images/sidoskartta.png?t=0) to edit this image in a browser
-
-
+![Sidokuva](images/sidoskartta_2.png)
 
 
 ## Asiakaspolku (Customer Journey)
 
-Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
+Malli käyttäjä [Jarkko](asiakasprofiili-1) haluaa nopeasti kuvallisessa muodossa olevasta tehtävästä ottaa tehtävä kuvauksen raporttiinsa ja luo seuraavan laisen asiakaspolun tehdessään sen.
 
 ![Asiakaspolku-kuva](images/asiakaspolku.png)
 
 
+## Tuotteen yleisiä vaatimuksia ja rajoituksia (General Requirements and restrictions)
 
-## Yleinen käyttötapaus
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
 
-* Palvelun kannalta tärkeät käyttötapaukset yhteiskuvassa (Use Case Diagram)
 
-![](https://raw.githubusercontent.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/master/images/Use%20Case%20-%20New%20Page.png)
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| GENREQ001 | Käyttäjien tunnistus | Tietoturva | - |
+| GENREQ002 | Verkkoliikenteen salaus | Tietoturva | - |
+| GENREQ003 | Kuvien lataaminen | Käyttäjän sisältö | - |
+| GENREQ004 | Vaatimus? | Mikä osa-alue | - |
+| GENREQ005 | Vaatimus? | Mikä osa-alue | - |
+| GENREQ004 | Vaatimus? | Mikä osa-alue | - |
+| GENREQ004 | Vaatimus? | Mikä osa-alue | - |
+| GENREQ004 | Vaatimus? | Mikä osa-alue | - |
+| GENREQ004 | Vaatimus? | Mikä osa-alue | - |
 
-| Käyttötapaus | | |
+
+
+## Yleiset käyttötapaukset (General Use Cases)
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+![](images/usecases.png)
+
+| Käyttötapaus | Linkki | Muuta |
 |:-:|:-:|:-:|
-| [Rekisteröityminen](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
-| [Salasanan vaihto](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
-| [Avatarin valinta](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
-| [Salasanan vaihto](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
+| Käyttötapaus Käyttäjän rekisteröiminen | [Use Case 1](kayttotapaus-1.md) | - |
+| Käyttötapaus Käyttäjä kirjautuu palveluun | [Use Case 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
+| Käyttötapaus  | [Use Case 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
+| Käyttötapaus LOREM IPSUM3 | [Use Case 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
+| Käyttötapaus LOREM IPSUM3 | [Use Case 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
 
 
+## Palveluun liittyvät toiminnalliset vaatimukset (Functional Requirements)
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ001 | Palvelun pitää toimia uusimmassa Mozilla Firefox selaimessa | Mikä osa-alue | Kuka vastaa |
+| REQ002 | Palvelun pitää toimia uusimmassa Google Chrome selaimessa | Mikä osa-alue | Kuka vastaa |
+| REQ003 | Palvelun pitää toimia uusimmassa Apple Safari selaimessa | Mikä osa-alue | Kuka vastaa |
+| REQ004 | Vaatimus? | Mikä osa-alue | Kuka vastaa |
+| REQ005 | Vaatimus? | Mikä osa-alue | Kuka vastaa |
 
 
+## Palveluun liittyvät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
-## Palveluun liittyvät toiminnalliset vaatimukset
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-  * Tässä osiossa voidaan nostaa esiin huomioitavia tärkeitä vaatimuksia, jotka on hyvä pitää mielessä!
+### Suorituskyky? (Performance)
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| Palvelun täytyy toimia Android versiosssa 4.x alkaen | Tekninen | "ASAP"-tuotantotiimi | P1 |
-|YVA0002| Palvelun täytyy toimia Windows Phonessa | totetutus |  "ASAP"-tuotantotiimi | P2 |
-|YVA0003| Palvelun täytyy toimia Windows 95:ssa, koska johtajalla on moinen koneessaan! | totetuts |  "ASAP"-tuotantotiimi | P5 |
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
+| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
+| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
 
+### Luotettavuus?
 
-Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
-Onko olemassa erilaisia tuoteversioita eri ympäristöihin, mitä?
-
-  * Työpöytäversio ?
-  * Mobiiliversio ?
-  * Kenttäversio  
-
-ohjelmiston osa-alueita/lohkoja?
-
-  * Hallintapaneeli ?
-  * Tietokanta-palvelut ?
-  * Käyttöliittymät ?
-  * Autentikointi ?
-  * Laskutus ?
-
-
-## Palveluun liittyvät ei-toiminnalliset vaatimukset
-
-### Suorituskyky?
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
 
 
 ### Tietoturva?
 
+Palvelussa tietoturva on otettu huomioon palvelun
+
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Kaikki liikenne pitää olla salattu | Tietoturva | järjestelmä |
+| REQ00x | Oletuksena vain käyttäjä itse näkee omat kuvansa | Tietoturva | järjestelmä |
+| REQ00x | Helposti arvattavia salasanoja ei sallita | Tietoturva | järjestelmä |
+| REQ00x | Heikkoja salasanoja ei sallita | Tietoturva | järjestelmä |
+| REQ00x | Kuvat skannataan viirusten varalta | Tietoturva | järjestelmä |
+| REQ00x | Kaikki syöte kentät sanitoidaan | Tietoturva | järjestelmä |
+
+
 ### Käytettävyys
 
-  * Mitä on otettava huomioon ?
-  * Asiakkaan toiveet ?
-  * Teknologiset osa-alueet/asiat, jotka vaikuttavat käytettävyyteen?
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
 
 
 ## Palvelu MockUp-prototyyppi
+
 
 Palvelun MockUp-prototyyppi on koetettavissa osoitteessa https://ninjamock.com/s/GLJRL
 
 ![](images/Mockup_v1.png)
 
+
 ## Tärkeimmät tunnistetut ominaisuudet (Features)
 
-
-  * Kirjataan tärkeimmät ominaisuudet
-  * Mitä ovat oleelliset ominaiduudet ?
-  * [Tsekkaa MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
-| [Käyttäjä voi kirjautua 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi rekisteröityä 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi kirjautua ulos 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi luoda uuden projektin 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi poistaa projektin 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi uudelleen nimetä projektin 6](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi ladata uuden kuvan palveluun 7](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi uudelleen nimetä kuvan 8](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi uudelleen järjestää kuvia 9](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi lisätä uuden notaation 10](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi poistaa notaation 11](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi muokata notaatiota 12](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi tallentaa notaation 13](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi vaihtaa seuraavaan käsiteltävään kuvaan 14](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi vaihtaa eleltävään käsiteltävään kuvaan 15](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi siirtyä projekti-näkymän ja kuvalista-näkymän välillä 16](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Käyttäjä voi siirtyä editointi-näkymän ja kuvalista-näkymän välillä 17](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 18](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 19](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 20](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 6](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 7](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
 
 
 
 ## Julkaisun suunnitelma
 
-
-## Riskit  (Risks)
-
-   * Tunnistetaan ohjelmistoon/palveluun liittyviä riskejä..
-   * [Riskienhallinta](https://fi.wikipedia.org/wiki/Riskienhallinta)
-
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|RISK001| Käyttäjämäärän äkillinen lisääntyminen, esim poikkeustilanteen aikana | - | P1 |
-|RISK002| Palvelun käytettävyys heikkenee kovan kuormituksen aikana | Toiminnnallinen |  | P5 |
-|RISK003| Heikon verkkoyhteyden vaikutus palvelun käyttöön | Toiminnnallinen | - | P3 |
-
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
-
-## Tuotteen yleiset vaatimukset
+| Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
+|:-:|:-:|:-:|:-:|
+| 1.1.201x [Ominaisuus 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| 1.4.201x [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| 15.4.201x [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| 5.5.201x [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
 
 
+# Palvelun/ohjelmiston arkkitehtuuri
 
-## Palvelun/ohjelmiston arkkitehtuuri
+### Yleinen sijoittelunäkymä (Deployment diagram )
 
-  * Tämä osio voidaan sisällyttää osaksi teknistä suunnittelua.
-  * Vaatimusmäärittelyssä voi kuitenkin olla  hyvä tarvittaessa kuvata yleistä totetutusta ja siihen liittyviä ongelmakohtia
-
-
-![](https://camo.githubusercontent.com/5c169deb4debb278bb6219208f577843075ddab3/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6179707170797376726831316133312f636f6e747269626f6172642d6172636869746563747572652e706e673f646c3d31)
-
-   * [Esimerkki elävästä elämästä](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
+![](https://openclipart.org/image/800px/svg_to_png/17266/berteh-flow-diagram-symbols.png&disposition=attachment)
 
 
-### Sijoittelunäkymä (Deployment diagram
+# Arkkitehtuuriin/teknologiaan liityvät vaatimukset
 
-  * Vaatimusmäärittelyssä tämä saattaa olla yksi hyödyllisimpiä UML-kuvauksia ?
-  * Miten ohjelmisto/palvelu tulee karkeasti toimimaan osana vanhaa totetutusta..
-  * Miten olemassa oleva järjestelmä tulee karkeasti toimimaan
+### Ylläpito (Maintenance)
 
-![](https://www.lucidchart.com/publicSegments/view/6f727a36-f880-4dca-b5ac-133f6f860697/image.png)
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Vaatimus? | Yllläpito | Kuka vastaa |
+| REQ00x | Vaatimus? | Tekninen | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+
+### Yleinen tietokantakuvaus (Database ER-diagram)
+
+ER-kaavio
+
+![](http://www.conceptdraw.com/solution-park/resource/images/solutions/entity-relationship-diagram-(erd)/Design_Elements(Crows-Foot-ERD).png)
 
 
-## Riskiperustainen esi-testaussuunnitelma
+# Testauksen vaatimukset (Testing requirements)
 
-### Tunnistetut riskit ja testikohtee
+### Testattavuus
+
+| Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
+|:-:|:-:|:-:|:-:|
+| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+
+
+
+# Tunnistetut riskit ja testikohteet
 
   * Riski -> Testaustarve
   * Vaatimus -> Testaustarve
 
 
-##  Julkaisusuunnitelma ja priorisointi
 
-Julkaisujärjestys ei aina ole lineaarinen. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
-Joskus se saattaa tuntua siltä: [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)
+### Dokumentit, standardit ja lähteet
 
-
-Toiminnallisuudet ja toteuttamisjärjestys
-
-  * Ominaisuus 1 - Maaliskuu 2019
-  * Ominaisuus 3 - Huhtikuu 2019
-  * Ominaisuus 5 - Toukokuu 2019
-  * Ominaisuus 2 - Syyskuu 2019
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 
-### Priorisointi
+*Lähteet*
 
-
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
-
-
-## Standardit ja lähteet
-
-  * ISTQB
-  * IPMA
-  * etc..
-
-
-
-# Lähteet
-
-# Lähteitä
-
-  * https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
+| ID | Lähde | Kuvaus | Linkki |
+|:-:|:-:|:-:|:-:|
+| Id0 | Wikipedia | Vaatimusmäärittely |   https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
+- |
+| - | -  | - |
+| - | -  | - |
+| - | -  | - |

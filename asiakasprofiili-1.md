@@ -1,4 +1,4 @@
-# Profiili 1
+# Profiili 1 - Jarkko
 
 
 ![](images/asiakas-profiili-1.jpg)
@@ -10,7 +10,7 @@ Jarkko harrastaa monipuolisesti liikuntaa ja lukemista.
 Hän asuu Nakkilassa rivitalossa yksin koiransa kanssa.
 Jarkon koiran nimi on Firma.
 
-  * Arvo: Uskalikot, vaikuttajat, mahd. vakioasiakas
+  * Arvo: Uskalikot, vaikuttajat
 
 
 ### Ryhmä/segmentti:
