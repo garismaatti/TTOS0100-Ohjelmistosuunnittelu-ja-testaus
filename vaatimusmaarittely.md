@@ -1,12 +1,13 @@
-# Vaatimusmäärittely
-
+# Reading scissors-palvelun vaatimusmäärittely
 
 Tämä vaatimumäärittely on "elävä"-dokumentti, joka päivittyy jatkuvasti.
-Dokumentti on karkea runko, jota voi käyttää projektien vaatimusmäärittelyn pohjana,
+<!-- Dokumentti on karkea runko, jota voi käyttää projektien vaatimusmäärittelyn pohjana,
 mutta se vaatii muokkausta!
 Tavoitteena on luoda dokumentti, joka yhdistää palvelumuotoilun ja ohjelmistosuunnittelun saumattomasti yhteen. Tekijä ei ota mitään vastuuta dokumentin sisällöstä.
 
-tv:NarsuMan
+tv:NarsuMan -->
+
+
 
 
 
@@ -14,7 +15,7 @@ tv:NarsuMan
 ## Sisällysluettelo ?
 
 
-
+* <a href="#Johdatus">Johdatus</a>
 * <a href="#Asiakastarina">Asiakastarina</a>
 * <a href="#Sidosryhmät ja profiilikuvaukset">Sidosryhmät ja profiilikuvaukset</a>
 * <a href="#Sidosryhmäkuva">Sidosryhmäkuva</a>
@@ -30,17 +31,18 @@ tv:NarsuMan
 
 ## Johdatus
 
-Mikä on tämän vaatimusmäärittelydokumentin tehtävä? 
-* Mihin se liittyy ? 
+Mikä on tämän vaatimusmäärittelydokumentin tehtävä?
+* Mihin se liittyy ?
 * Tärkeätä tietää/oleellista lukijalle ?
+Tämä dokumentti määrittelee oleelliset asiat
 
 ### Palvelukuvaus/asiakastarina
 
 Pyri vastaamaan seuraaviin kysymyksiin!
 
-* Mitä määritetyltä palvelulta odotetaan? 
+* Mitä määritetyltä palvelulta odotetaan?
 * Miten käytön oletetaan tapahtuvan
-* Mitä saadaan hyötyä 
+* Mitä saadaan hyötyä
 
 ### Tilaaja
 
@@ -74,8 +76,8 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 |:-: | :-: | :-: |
 | [Asiakasprofiili-1](asiakasprofiili-1.md) | Jarmo Mainio, 27, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta  | (Matematiikan opettaja) |
 | [Asiakasprofiili-2](asiakasprofiili-2.md) | Rigu Rich, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land | Ulkomaalainen |
-| [Asiakasprofiili-3](asiakasprofiili-3.md) | Siiri Koikkalainen 99, suurmummo, Hankasalmi,  | (Sokea) | 
-| [Asiakasprofiili-4](asiakasprofiili-4.md) | John Rambu, 55, tuntematon, Helsinki, (Bad Man) | Hankala asiakas | 
+| [Asiakasprofiili-3](asiakasprofiili-3.md) | Siiri Koikkalainen 99, suurmummo, Hankasalmi,  | (Sokea) |
+| [Asiakasprofiili-4](asiakasprofiili-4.md) | John Rambu, 55, tuntematon, Helsinki, (Bad Man) | Hankala asiakas |
 | [Asiakasprofiili-5](asiakasprofiili-5.md) | Sad Frog 26 |  | Kiusantekijä | |
 | [Asiakasprofiili-6](asiakasprofiili-6.md) | Sad Frog 26 |  | Kiusantekijä | |
 |[Sidosryhmä-1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-asiakasprofiili.md) |  Mungo consulting Oy | Palvelun tarjoaja |
@@ -91,7 +93,7 @@ Esimerkkejä! korvaa toimeksiantoon liittyvillä henkilöillä
 
 ![Sidokuva](images/sidoskartta.png)
 
-[Edit](https://www.draw.io/?title=sidoskartta.png&url=https://github.com/garismaatti/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/raw/master/images/sidoskartta.png?t=0) to edit this image in a browser 
+[Edit](https://www.draw.io/?title=sidoskartta.png&url=https://github.com/garismaatti/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/raw/master/images/sidoskartta.png?t=0) to edit this image in a browser
 
 
 
@@ -110,7 +112,7 @@ Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edusta
 
 ![](https://raw.githubusercontent.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/master/images/Use%20Case%20-%20New%20Page.png)
 
-| Käyttötapaus | | | 
+| Käyttötapaus | | |
 |:-:|:-:|:-:|
 | [Rekisteröityminen](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
 | [Salasanan vaihto](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | | |
@@ -125,7 +127,7 @@ Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edusta
 
   * Tässä osiossa voidaan nostaa esiin huomioitavia tärkeitä vaatimuksia, jotka on hyvä pitää mielessä!
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |YVA0001| Palvelun täytyy toimia Android versiosssa 4.x alkaen | Tekninen | "ASAP"-tuotantotiimi | P1 |
 |YVA0002| Palvelun täytyy toimia Windows Phonessa | totetutus |  "ASAP"-tuotantotiimi | P2 |
@@ -153,7 +155,7 @@ ohjelmiston osa-alueita/lohkoja?
 
 ## Palveluun liittyvät ei-toiminnalliset vaatimukset
 
-### Suorituskyky? 
+### Suorituskyky?
 
 
 ### Tietoturva?
@@ -167,6 +169,11 @@ ohjelmiston osa-alueita/lohkoja?
 
 
 ## Palvelu MockUp-prototyyppi
+
+Palvelun MockUp-prototyyppi on koetettavissa osoitteessa https://ninjamock.com/s/GLJRL
+
+![](images/Mockup_v1.png)
+
 ## Tärkeimmät tunnistetut ominaisuudet (Features)
 
 
@@ -176,15 +183,26 @@ ohjelmiston osa-alueita/lohkoja?
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
-| [Ominaisuus 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 6](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 7](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 8](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 91(https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi kirjautua 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi rekisteröityä 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi kirjautua ulos 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi luoda uuden projektin 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi poistaa projektin 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi uudelleen nimetä projektin 6](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi ladata uuden kuvan palveluun 7](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi uudelleen nimetä kuvan 8](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi uudelleen järjestää kuvia 9](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi lisätä uuden notaation 10](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi poistaa notaation 11](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi muokata notaatiota 12](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi tallentaa notaation 13](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi vaihtaa seuraavaan käsiteltävään kuvaan 14](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi vaihtaa eleltävään käsiteltävään kuvaan 15](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi siirtyä projekti-näkymän ja kuvalista-näkymän välillä 16](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Käyttäjä voi siirtyä editointi-näkymän ja kuvalista-näkymän välillä 17](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 18](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 19](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 20](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
 
 
 
@@ -196,7 +214,7 @@ ohjelmiston osa-alueita/lohkoja?
    * Tunnistetaan ohjelmistoon/palveluun liittyviä riskejä..
    * [Riskienhallinta](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |RISK001| Käyttäjämäärän äkillinen lisääntyminen, esim poikkeustilanteen aikana | - | P1 |
 |RISK002| Palvelun käytettävyys heikkenee kovan kuormituksen aikana | Toiminnnallinen |  | P5 |
@@ -210,9 +228,9 @@ ohjelmiston osa-alueita/lohkoja?
 
 ## Palvelun/ohjelmiston arkkitehtuuri
 
-  * Tämä osio voidaan sisällyttää osaksi teknistä suunnittelua. 
+  * Tämä osio voidaan sisällyttää osaksi teknistä suunnittelua.
   * Vaatimusmäärittelyssä voi kuitenkin olla  hyvä tarvittaessa kuvata yleistä totetutusta ja siihen liittyviä ongelmakohtia
-  
+
 
 ![](https://camo.githubusercontent.com/5c169deb4debb278bb6219208f577843075ddab3/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6179707170797376726831316133312f636f6e747269626f6172642d6172636869746563747572652e706e673f646c3d31)
 
@@ -248,10 +266,9 @@ Toiminnallisuudet ja toteuttamisjärjestys
   * Ominaisuus 3 - Huhtikuu 2019
   * Ominaisuus 5 - Toukokuu 2019
   * Ominaisuus 2 - Syyskuu 2019
-  *     
 
 
-### Priorisointi 
+### Priorisointi
 
 
   * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
@@ -270,4 +287,3 @@ Toiminnallisuudet ja toteuttamisjärjestys
 # Lähteitä
 
   * https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
-
