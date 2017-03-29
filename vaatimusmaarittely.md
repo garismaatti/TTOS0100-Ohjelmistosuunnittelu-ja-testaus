@@ -245,9 +245,6 @@ Palvelun MockUp-prototyyppi on koetettavissa osoitteessa https://ninjamock.com/s
 
 ## Tärkeimmät tunnistetut ominaisuudet (Features)
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
@@ -267,9 +264,9 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
 |:-:|:-:|:-:|:-:|
 | 1.1.201x [Ominaisuus 1](ominaisuuskuvaus-1.md) | | |
-| 1.4.201x [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| 15.4.201x [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| 5.5.201x [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| 1.4.201x [Ominaisuus 2](ominaisuuskuvaus-2.md) | | |
+| 15.4.201x [Ominaisuus 3](ominaisuuskuvaus-3.md) | | |
+| 5.5.201x [Ominaisuus 4](ominaisuuskuvaus-4.md) | | |
 
 
 # Palvelun/ohjelmiston arkkitehtuuri
@@ -305,7 +302,7 @@ ER-kaavio
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
 | REQ019 | Front- ja Back-end testattavissa erikseen | Testattavuus | Järjestelmä |
-| REQ020 | Testaus pitää pystyä automaatisoimaan | Testattavuus | Järjrstelmä |
+| REQ020 | Testaus pitää pystyä automaatisoimaan | Testattavuus | Järjestelmä |
 | REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
 
 
@@ -319,15 +316,14 @@ ER-kaavio
 
 ### Dokumentit, standardit ja lähteet
 
-Käytetään omaa ja alkuperäisien pohjien materiaalia kun siihen on mahdllisuus.
+Käytetään omaa ja alkuperäisien pohjien materiaalia kun siihen on mahdollisuus.
 
 
 *Lähteet*
 
 | ID | Lähde | Kuvaus | Linkki |
 |:-:|:-:|:-:|:-:|
-| Id0 | Wikipedia | Vaatimusmäärittely |   https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
-- |
-| Id1 | Pixabay  | Asiakasprofiilikuva-1, 2 (edited) | https://pixabay.com/en/man-board-drawing-muscles-strong-2037255/
-| - | -  | - |
-| - | -  | - |
+| Id0 | Wikipedia | Vaatimusmäärittely | https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely |
+| Id1 | Pixabay  | Asiakasprofiilikuvat 1(edited), 2 |  https://pixabay.com/en/man-board-drawing-muscles-strong-2037255/ |
+| - | -  | - | - |
+| - | -  | - | - |
