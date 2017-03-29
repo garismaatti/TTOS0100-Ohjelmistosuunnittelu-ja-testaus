@@ -94,6 +94,25 @@ Seuraavana päivänä Paul saa työnsä valmiiksi ja lataa käännetyn tekstin t
 
 Palvelun sidosryhmät ovat Palvelun käyttäjät, Palvelun ylläpitäjät, Crakkerit ja Omistaja.
 
+**Käyttäjä**
+
+Käyttäjät ovat asiakkaita mitä palvelumme palvelee.
+
+
+**Ylläpitäjät**
+
+Ovat palvelun kehittäjiä ja ylläpitäjiä jotka tekevät, ylläpität, huoltavat palvelua ja auttavat tarvittaessa palvelun käytössä.
+
+**Omistaja(t)**
+
+Palvelun omistajat jotka etsivät rahallista hyötyä palvelun omistuksesta.
+
+**Crakkerit** (Hakkerit)
+
+Uhka palvelulle (ja sen käyttäjille) mahd. hyökkäyksillä itse palvelua vastaan yrittäin häiritä toimintaa tai varastaa tietoja, kuten käyttäjien salasanoja.
+
+
+
 ## Sidosryhmäkuva (Stakeholder map)
 
 ![Sidokuva](images/sidoskartta_2.png)
@@ -130,23 +149,17 @@ incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minim
 
 ## Yleiset käyttötapaukset (General Use Cases)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Seuraavana kuva yleisistä käyttötapauksista. Kuvasta puuttuu vielä lieta määrittelemättäiä tapauksia joita lisätään myöhemmin.
 
 ![](images/usecases.png)
 
 | Käyttötapaus | Linkki | Muuta |
 |:-:|:-:|:-:|
 | Käyttötapaus Käyttäjän rekisteröiminen | [Use Case 1](kayttotapaus-1.md) | - |
-| Käyttötapaus Käyttäjä kirjautuu palveluun | [Use Case 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
-| Käyttötapaus  | [Use Case 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
-| Käyttötapaus LOREM IPSUM3 | [Use Case 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
-| Käyttötapaus LOREM IPSUM3 | [Use Case 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-kayttotapauskuvaus.md) | - |
+| Käyttötapaus Käyttäjä kirjautuu palveluun | [Use Case 2](kayttotapaus-2.md) | - |
+| Käyttötapaus Uuden kansion luominen | [Use Case 3](kayttotapaus-3.md) | - |
+| Käyttötapaus Kuvien lataaminen palveluun | [Use Case 4](kayttotapaus-4.md) | - |
+| Käyttötapaus Kuvan uudelleen nimeäminen | [Use Case 5](kayttotapaus-5.md) | - |
 
 
 ## Palveluun liittyvät toiminnalliset vaatimukset (Functional Requirements)
@@ -170,42 +183,32 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 ## Palveluun liittyvät ei-toiminnalliset vaatimukset (Non Functional Requirements)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Palvelulla ei tällä hetkellä ole ei-toiminnallisia vaatimuksia.
 
 ### Suorituskyky? (Performance)
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Palvelun suorituskyvy yritetään pitään miellyttävät käytön rajoissa.
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
-| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
-| REQ00x | Vaatimus? | Suorituskyky | Kuka vastaa |
+| REQ00x | Kuvien muokkaus palvelussa (kuten kierto) ei saa kestää useita minuutteja | Suorituskyky | järjestelmä |
+| REQ00x | Kuvien selaus näkymässä esikatselukuvien ilmestyminen ei saa kestää yli 40sekunttia | Suorituskyky | järjestelmä |
+| REQ00x | Vaatimus? | Suorituskyky | järjestelmä |
 
 ### Luotettavuus?
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Palvelusta pyritään tekemään mahdollisimman luotettava ja palvelu pyritään pitämään ylhäällä koko ajan.
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
+| REQ00x | Palvelun sivuja ei pidä tarvita virkistää kuin max 1/pv luotettavan käytön takaamiseksi | Luotettavuus | Kuka vastaa |
 | REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
 | REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
 
 
 ### Tietoturva?
 
-Palvelussa tietoturva on otettu huomioon palvelun
+Palvelussa tietoturva on otettu huomioon palvelun koko elinkaaren ajan ja tietoturvaa kehitetään jatkuvana prosessina.
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
@@ -219,15 +222,13 @@ Palvelussa tietoturva on otettu huomioon palvelun
 
 ### Käytettävyys
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Palvelun käyttöliittymä oletetaan olevan yleinen tietokoneen selain, muita laitteita tai ohjelmia ei tässä vaiheessa tueta.
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
-| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
-| REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
+| REQ00x | Käyttöliittymän väri-teema pitää miellyttää silmää | Käytettävyys | Kuka vastaa |
+| REQ00x | Tekstit pitää olla selkeästi luettavissa | Käytettävyys | Kuka vastaa |
+| REQ00x | Silmiä ärsyttäviä väri-vastaväri kohtia ei saa löytyä | Käytettävyys | Kuka vastaa |
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
 
@@ -248,13 +249,14 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 | Ominaisuus | Prioriteetti | Muuta |
 | :-: | :-: | :-: |
-| [Ominaisuus 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 5](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 6](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
-| [Ominaisuus 7](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| [Ominaisuus 1 Käyttäjä voi kirjaustua](ominaisuuskuvaus-1.md) | | |
+| [Ominaisuus 2 Kuvien hallinta](ominaisuuskuvaus-2.md) | | |
+| [Ominaisuus 3 Käännöksien hallinta](ominaisuuskuvaus-3.md) | | |
+| [Ominaisuus 4 Kansioiden hallinta](ominaisuuskuvaus-4.md) | | |
+| [Ominaisuus 5](ominaisuuskuvaus-5.md) | | |
+| [Ominaisuus 6](ominaisuuskuvaus-6.md) | | |
+| [Ominaisuus 7](ominaisuuskuvaus-7.md) | | |
+
 
 
 
@@ -262,7 +264,7 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 
 | Aika + Ominaisuuus | Kuvaus | Vastuu | Prioriteetti |
 |:-:|:-:|:-:|:-:|
-| 1.1.201x [Ominaisuus 1](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
+| 1.1.201x [Ominaisuus 1](ominaisuuskuvaus-1.md) | | |
 | 1.4.201x [Ominaisuus 2](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
 | 15.4.201x [Ominaisuus 3](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
 | 5.5.201x [Ominaisuus 4](https://github.com/JAMK-IT/TTOS0100-Ohjelmistosuunnittelu-ja-testaus/blob/master/pohja-ominaisuuskuvaus.md) | | |
