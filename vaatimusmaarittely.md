@@ -120,7 +120,7 @@ Uhka palvelulle (ja sen käyttäjille) mahd. hyökkäyksillä itse palvelua vast
 
 ## Asiakaspolku (Customer Journey)
 
-Malli käyttäjä [Jarkko](asiakasprofiili-1) haluaa nopeasti kuvallisessa muodossa olevasta tehtävästä ottaa tehtävä kuvauksen raporttiinsa ja luo seuraavan laisen asiakaspolun tehdessään sen.
+Malli käyttäjä [Jarkko](asiakasprofiili-1.md) haluaa nopeasti kuvallisessa muodossa olevasta tehtävästä ottaa tehtävä kuvauksen raporttiinsa ja luo seuraavan laisen asiakaspolun tehdessään sen.
 
 ![Asiakaspolku-kuva](images/asiakaspolku.png)
 
@@ -155,11 +155,11 @@ Seuraavana kuva yleisistä käyttötapauksista. Kuvasta puuttuu vielä lieta mä
 
 | Käyttötapaus | Linkki | Muuta |
 |:-:|:-:|:-:|
-| Käyttötapaus Käyttäjän rekisteröiminen | [Use Case 1](kayttotapaus-1.md) | - |
-| Käyttötapaus Käyttäjä kirjautuu palveluun | [Use Case 2](kayttotapaus-2.md) | - |
-| Käyttötapaus Uuden kansion luominen | [Use Case 3](kayttotapaus-3.md) | - |
-| Käyttötapaus Kuvien lataaminen palveluun | [Use Case 4](kayttotapaus-4.md) | - |
-| Käyttötapaus Kuvan uudelleen nimeäminen | [Use Case 5](kayttotapaus-5.md) | - |
+| Käyttötapaus Käyttäjän rekisteröiminen | [Use Case 1](kayttotapauskuvaus-1.md) | - |
+| Käyttötapaus Käyttäjä kirjautuu palveluun | [Use Case 2](kayttotapauskuvaus-2.md) | - |
+| Käyttötapaus Uuden kansion luominen | [Use Case 3](kayttotapauskuvaus-3.md) | - |
+| Käyttötapaus Kuvien lataaminen palveluun | [Use Case 4](kayttotapauskuvaus-4.md) | - |
+| Käyttötapaus Kuvan uudelleen nimeäminen | [Use Case 5](kayttotapauskuvaus-5.md) | - |
 
 
 ## Palveluun liittyvät toiminnalliset vaatimukset (Functional Requirements)
@@ -177,8 +177,8 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 | REQ001 | Palvelun pitää toimia uusimmassa Mozilla Firefox selaimessa | Mikä osa-alue | Kuka vastaa |
 | REQ002 | Palvelun pitää toimia uusimmassa Google Chrome selaimessa | Mikä osa-alue | Kuka vastaa |
 | REQ003 | Palvelun pitää toimia uusimmassa Apple Safari selaimessa | Mikä osa-alue | Kuka vastaa |
-| REQ004 | Vaatimus? | Mikä osa-alue | Kuka vastaa |
-| REQ005 | Vaatimus? | Mikä osa-alue | Kuka vastaa |
+| REQ00x | Vaatimus? | Mikä osa-alue | Kuka vastaa |
+| REQ00x | Vaatimus? | Mikä osa-alue | Kuka vastaa |
 
 
 ## Palveluun liittyvät ei-toiminnalliset vaatimukset (Non Functional Requirements)
@@ -191,8 +191,8 @@ Palvelun suorituskyvy yritetään pitään miellyttävät käytön rajoissa.
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Kuvien muokkaus palvelussa (kuten kierto) ei saa kestää useita minuutteja | Suorituskyky | järjestelmä |
-| REQ00x | Kuvien selaus näkymässä esikatselukuvien ilmestyminen ei saa kestää yli 40sekunttia | Suorituskyky | järjestelmä |
+| REQ004 | Kuvien muokkaus palvelussa (kuten kierto) ei saa kestää useita minuutteja | Suorituskyky | järjestelmä |
+| REQ005 | Kuvien selaus näkymässä esikatselukuvien ilmestyminen ei saa kestää yli 40sekunttia | Suorituskyky | järjestelmä |
 | REQ00x | Vaatimus? | Suorituskyky | järjestelmä |
 
 ### Luotettavuus?
@@ -201,7 +201,7 @@ Palvelusta pyritään tekemään mahdollisimman luotettava ja palvelu pyritään
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Palvelun sivuja ei pidä tarvita virkistää kuin max 1/pv luotettavan käytön takaamiseksi | Luotettavuus | Kuka vastaa |
+| REQ006 | Palvelun sivuja ei pidä tarvita virkistää kuin max 1/pv luotettavan käytön takaamiseksi | Luotettavuus | Kuka vastaa |
 | REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
 | REQ00x | Vaatimus? | Luotettavuus | Kuka vastaa |
 
@@ -212,13 +212,15 @@ Palvelussa tietoturva on otettu huomioon palvelun koko elinkaaren ajan ja tietot
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Kaikki liikenne pitää olla salattu | Tietoturva | järjestelmä |
-| REQ00x | Oletuksena vain käyttäjä itse näkee omat kuvansa | Tietoturva | järjestelmä |
-| REQ00x | Helposti arvattavia salasanoja ei sallita | Tietoturva | järjestelmä |
-| REQ00x | Heikkoja salasanoja ei sallita | Tietoturva | järjestelmä |
-| REQ00x | Kuvat skannataan viirusten varalta | Tietoturva | järjestelmä |
-| REQ00x | Kaikki syöte kentät sanitoidaan | Tietoturva | järjestelmä |
-
+| REQ007 | Kaikki liikenne pitää olla salattu | Tietoturva | järjestelmä |
+| REQ008 | Oletuksena vain käyttäjä itse näkee omat kuvansa | Tietoturva | järjestelmä |
+| REQ009 | Helposti arvattavia salasanoja ei sallita | Tietoturva | järjestelmä |
+| REQ010 | Heikkoja salasanoja ei sallita | Tietoturva | järjestelmä |
+| REQ011 | Kuvat skannataan viirusten varalta | Tietoturva | järjestelmä |
+| REQ012 | Kaikki syöte kentät sanitoidaan | Tietoturva | järjestelmä |
+| REQ016 | Kirjautuminen väärällä salasanalla testattava | Tietoturva/testattava | Testausautomaatio |
+| REQ017 | Suora-linkkien testaus ei-käyttäjänä | Tietoturva/testattava | Testausautomaatio |
+| REQ018 | Uloskirjauksen toimivuus testattava | Tietoturva/testattava | Testausautomaatio |
 
 ### Käytettävyys
 
@@ -226,9 +228,9 @@ Palvelun käyttöliittymä oletetaan olevan yleinen tietokoneen selain, muita la
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Käyttöliittymän väri-teema pitää miellyttää silmää | Käytettävyys | Kuka vastaa |
-| REQ00x | Tekstit pitää olla selkeästi luettavissa | Käytettävyys | Kuka vastaa |
-| REQ00x | Silmiä ärsyttäviä väri-vastaväri kohtia ei saa löytyä | Käytettävyys | Kuka vastaa |
+| REQ013 | Käyttöliittymän väri-teema pitää miellyttää silmää | Käytettävyys | Kuka vastaa |
+| REQ014 | Tekstit pitää olla selkeästi luettavissa | Käytettävyys | Kuka vastaa |
+| REQ015 | Silmiä ärsyttäviä väri-vastaväri kohtia ei saa löytyä | Käytettävyys | Kuka vastaa |
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
 | REQ00x | Vaatimus? | Käytettävyys | Kuka vastaa |
 
@@ -302,10 +304,8 @@ ER-kaavio
 
 | Id | Vaatimuksen kuvaus | kategoria | Vastuullinen |
 |:-:|:-:|:-:|:-:|
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
-| REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
+| REQ019 | Front- ja Back-end testattavissa erikseen | Testattavuus | Järjestelmä |
+| REQ020 | Testaus pitää pystyä automaatisoimaan | Testattavuus | Järjrstelmä |
 | REQ00x | Vaatimus? | Testattavuus | Kuka vastaa |
 
 
@@ -319,9 +319,7 @@ ER-kaavio
 
 ### Dokumentit, standardit ja lähteet
 
-qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+Käytetään omaa ja alkuperäisien pohjien materiaalia kun siihen on mahdllisuus.
 
 
 *Lähteet*
@@ -330,6 +328,6 @@ quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
 |:-:|:-:|:-:|:-:|
 | Id0 | Wikipedia | Vaatimusmäärittely |   https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
 - |
-| - | -  | - |
+| Id1 | Pixabay  | Asiakasprofiilikuva-1, 2 (edited) | https://pixabay.com/en/man-board-drawing-muscles-strong-2037255/
 | - | -  | - |
 | - | -  | - |

@@ -2,7 +2,7 @@
 
 
 
-![](https://openclipart.org/image/300px/svg_to_png/22412/nicubunu-Emoticons-Question-face.png&disposition=attachment)
+![](images/asiakas-profiili-2.png)
 
   * Mr Paul
   * Paul on 34 vuotias ammatti kääntäjä ja tulkki.
