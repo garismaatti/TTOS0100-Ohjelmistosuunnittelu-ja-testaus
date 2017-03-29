@@ -96,20 +96,20 @@ Palvelun sidosryhmät ovat Palvelun käyttäjät, Palvelun ylläpitäjät, Crakk
 
 **Käyttäjä**
 
-Käyttäjät ovat asiakkaita mitä palvelumme palvelee.
+Käyttäjät ovat asiakkaita mitä palvelu palvelee.
 
 
 **Ylläpitäjät**
 
-Ovat palvelun kehittäjiä ja ylläpitäjiä jotka tekevät, ylläpität, huoltavat palvelua ja auttavat tarvittaessa palvelun käytössä.
+Ovat palvelun kehittäjiä ja ylläpitäjiä jotka kehittävät, ylläpitävät ja huoltavat palvelua, sekä auttavat tarvittaessa palvelun käytössä.
 
 **Omistaja(t)**
 
-Palvelun omistajat jotka etsivät rahallista hyötyä palvelun omistuksesta.
+Palvelun omistaja(t) jotka etsivät rahallista hyötyä palvelun omistuksesta.
 
 **Crakkerit** (Hakkerit)
 
-Uhka palvelulle (ja sen käyttäjille) mahd. hyökkäyksillä itse palvelua vastaan yrittäin häiritä toimintaa tai varastaa tietoja, kuten käyttäjien salasanoja.
+Uhka palvelulle (ja sen käyttäjille) mahd. hyökkäyksillä itse palvelua vastaan häiritäkseen sen toimintaa tai varastaakseen tietoja, kuten käyttäjien salasanoja tai käyttäjien palveluun lataamaa sisältöä.
 
 
 
